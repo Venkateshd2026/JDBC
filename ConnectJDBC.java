@@ -10,7 +10,7 @@ public class Demo {
 				System.out.println("Driver Loading... and loaded");
 				// 2nd step establish the connection
 				Connection con;
-				con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/febbatch","root","Venki@374757");
+				con=DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/febbatch","root","Venki@757");
 				System.out.println("Connection Established");
 				//3rd step create the statement medium
 				Statement stmt=con.createStatement();
