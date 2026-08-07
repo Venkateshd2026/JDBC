@@ -1,0 +1,1 @@
+A Java-based JDBC application showcasing database connectivity with MySQL, CRUD operations, PreparedStatement, transaction management, exception handling, and resource management following best practices.
