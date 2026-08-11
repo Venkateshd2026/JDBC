@@ -7,7 +7,7 @@ public class StoredProcedure1 {
 		Scanner sc=null;
 		CallableStatement cs=null;
 		 String dpath = "com.mysql.cj.jdbc.Driver";
-	      String url = "jdbc:mysql://127.0.0.1:3306/febbatch?user=root&password=Venki@374757";
+	      String url = "jdbc:mysql://127.0.0.1:3306/febbatch?user=root&password=Venki";
 	      String sql="Call addStudent(?,?,?,?)";
 	        
 		try {
