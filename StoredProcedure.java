@@ -5,7 +5,7 @@ public class StoredProcedure {
 		Connection con=null;
 		ResultSet rs=null;
 		Scanner sc=null;
-		CallableStatement cs=null;
+		CallableStatement cs=null;// use the callstatement whwen you are dealing with the StoredProcedure statements 
 		 String dpath = "com.mysql.cj.jdbc.Driver";
 	      String url = "jdbc:mysql://127.0.0.1:3306/febbatch?user=root&password=Venki@kjbakjfka";
 	      String sql="Call getStudent(?)";
